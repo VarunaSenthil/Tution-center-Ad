@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/tuition"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuition Center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nContact Number:9942278937 \n
+Address: 5-Gandhi Street,\nChennai\n
+Available for School,College Students\n
+Hours: 4 hrs/day\n"
+
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+/>
+        </RelativeLayout>
